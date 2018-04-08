@@ -14,3 +14,6 @@ Sun Apr  8 18:01:26 2018 [4140][-none-][FATAL] Configuration variable date.timez
 Sun Apr  8 18:01:28 2018 [4304][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
 Sun Apr  8 18:01:32 2018 [4304][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
 Sun Apr  8 18:02:05 2018 [4304][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
+Sun Apr  8 20:45:32 2018 [4302][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
+Sun Apr  8 20:45:34 2018 [4302][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
+Sun Apr  8 20:45:35 2018 [4302][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone UTC. Please set date.timezone="UTC" in php.ini!
