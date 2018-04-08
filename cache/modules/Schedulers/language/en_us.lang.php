@@ -1,5 +1,5 @@
 <?php
-// created: 2018-04-08 17:51:57
+// created: 2018-04-08 20:26:33
 $mod_strings = array (
   'LBL_OOTB_WORKFLOW' => 'Process Workflow Tasks',
   'LBL_OOTB_REPORTS' => 'Run Report Generation Scheduled Tasks',
@@ -110,4 +110,5 @@ To quit, type \'quit\'.  To shutdown the service \'shutdown\'.
   'LBL_SENDEMAILREMINDERS' => 'Run Email Reminders Sending',
   'LBL_CLEANJOBQUEUE' => 'Cleanup Job Queue',
   'LBL_REMOVEDOCUMENTSFROMFS' => 'Removal of documents from filesystem',
+  'LBL_CUSTOM_WRITE_TO_LOG' => 'Custom write to log',
 );
