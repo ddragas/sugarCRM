@@ -1,0 +1,21 @@
+ip: 192.168.10.77
+memory: 4048
+cpus: 2
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: "./"
+        to: /home/vagrant/sugar
+sites:
+    -
+        map: sugar.local
+        to: /home/vagrant/sugar
+        php: "5.6"
+        type: "apache"
+databases:
+    - sugar
+name: sugar
+hostname: sugar
