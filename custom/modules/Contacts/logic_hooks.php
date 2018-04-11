@@ -5,10 +5,20 @@
 $hook_array = Array(); 
 // position, file, function 
 $hook_array['before_save'] = Array(); 
-$hook_array['before_save'][] = Array(1, 'Contacts push feed', 'modules/Contacts/SugarFeeds/ContactFeed.php','ContactFeed', 'pushFeed'); 
-$hook_array['after_ui_frame'] = Array(); 
-$hook_array['after_ui_frame'][] = Array(1, 'Contacts InsideView frame', 'modules/Connectors/connectors/sources/ext/rest/insideview/InsideViewLogicHook.php','InsideViewLogicHook', 'showFrame'); 
+$hook_array['before_save'][] = Array(1, 'Contacts push feed', 'modules/Contacts/SugarFeeds/ContactFeed.php','ContactFeed', 'pushFeed');
+$hook_array['before_save'][] = Array(
+    2,
+    //Label. A string value to identify the hook.
+    'before_save example',
 
+    //The PHP file where your class is located.
+    'custom/modules/Contacts/Logic_hooks_class.php',
 
+    //The class the method is in.
+    'logic_hooks_class',
 
-?>
+    //The method to call.
+    'before_save_method'
+);
+$hook_array['after_ui_frame'] = Array();
+$hook_array['after_ui_frame'][] = Array(1, 'Contacts InsideView frame', 'modules/Connectors/connectors/sources/ext/rest/insideview/InsideViewLogicHook.php','InsideViewLogicHook', 'showFrame');
